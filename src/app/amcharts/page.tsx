@@ -1,8 +1,8 @@
-import DotChart from "@/components/DotChart";
-import DotLineChart from "@/components/DotLineChart";
-import LineChart from "@/components/LineChart";
-import MapsChart from "@/components/MapsChart";
-import StackedBarChart from "@/components/StackedBarChart";
+import DotChart from "@/components/AmCharts/DotChart";
+import DotLineChart from "@/components/AmCharts/DotLineChart";
+import LineChart from "@/components/AmCharts/LineChart";
+import MapsChart from "@/components/AmCharts/MapsChart";
+import StackedBarChart from "@/components/AmCharts/StackedBarChart";
 
 const ChartsPage = () => {
   return (

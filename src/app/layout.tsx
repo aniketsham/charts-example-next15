@@ -33,6 +33,7 @@ export default function RootLayout({
           <Link href="/reactcharts">React-Charts</Link>
           {/* <Link href="/contact">Contact</Link> */}
           <Link href="/amcharts">AmCharts</Link>
+          <Link href="/echarts">Echarts</Link>
         </nav>
         {children}
       </body>

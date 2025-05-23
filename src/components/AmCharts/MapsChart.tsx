@@ -5,7 +5,7 @@ import IndiaGeoJson from "@/lib/IndiaGeoJsonPolyGon.json";
 import { FeatureCollection } from "geojson";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 import React, { useEffect } from "react";
-import ChartCard from "./ChartCard";
+import ChartCard from "../ChartCard";
 function getPolygonCenter(
   geometry: GeoJSON.Geometry
 ): [number, number] | undefined {
