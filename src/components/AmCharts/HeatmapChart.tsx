@@ -293,6 +293,7 @@ const HeatmapChart = () => {
     const heatLegend = chart.bottomAxesContainer.children.push(
       am5.HeatLegend.new(root, {
         orientation: "horizontal",
+        // rotation: 180,
         startColor: am5.color(0x00ff00),
         endColor: am5.color(0xff0000),
         paddingTop: 20,
@@ -300,10 +301,10 @@ const HeatmapChart = () => {
     );
 
     heatLegend.startLabel.setAll({
-      visible: false,
+      visible: true,
     });
     heatLegend.endLabel.setAll({
-      visible: false,
+      visible: true,
     });
 
     heatLegend.set("y", am5.p50);
@@ -317,8 +318,8 @@ const HeatmapChart = () => {
     });
 
     series.events.on("datavalidated", function () {
-      heatLegend.set("startValue", series.getPrivate("valueHigh"));
-      heatLegend.set("endValue", series.getPrivate("valueLow"));
+      heatLegend.set("startValue", series.getPrivate("valueLow"));
+      heatLegend.set("endValue", series.getPrivate("valueHigh"));
     });
 
     chart.appear(1000, 100);
