@@ -229,7 +229,7 @@ const DotLineChart = () => {
     <div className="flex flex-col justify-start pt-10 px-20">
       <ChartCard
         title="Multi-Series Dot Chart"
-        description="Dot chart with multiple datasets using bullets only"
+        description="Dot chart with multiple datasets using bullets only (React Echarts)"
         content={
           <div id="dot-line-matrix-chart" className="w-full h-[520px]" />
         }
