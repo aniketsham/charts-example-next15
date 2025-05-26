@@ -329,7 +329,7 @@ const HeatmapChart = () => {
   }, []);
 
   return (
-    <div className="p-8">
+    <div className="px-20 p-8">
       <ChartCard
         title="Food Delivery Heatmap"
         description="Average delivery times by hour and day"
