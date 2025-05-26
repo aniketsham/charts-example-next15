@@ -4,6 +4,7 @@ import DotChart from "@/components/Chartjs/DotChart";
 import LineChart from "@/components/Chartjs/LineChart";
 import IndiaMapChart from "@/components/Chartjs/MapsChart";
 import StackedBarChart from "@/components/Chartjs/StackedBarChart";
+
 import React from "react";
 
 const ReactChartsPage = () => {
